@@ -1,0 +1,2 @@
+import { Helmet } from 'react-helmet-async'; import PageHero from '../../components/PageHero/PageHero'; import Button from '../../components/Button/Button';
+export default function NotFound(){return <><Helmet><title>Page not found</title><meta name="description" content="The requested page could not be found." /></Helmet><PageHero eyebrow="404" title="This path has wandered"><Button to="/">Return home</Button></PageHero></>}

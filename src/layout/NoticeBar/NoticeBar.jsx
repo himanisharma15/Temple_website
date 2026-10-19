@@ -1,0 +1,2 @@
+import { X } from 'lucide-react'; import { useState } from 'react'; import { Link } from 'react-router-dom'; import styles from './NoticeBar.module.css';
+export default function NoticeBar(){const [visible,setVisible]=useState(()=>localStorage.getItem('notice-dismissed')!=='true');if(!visible)return null;return <div className={styles.bar}>Darshan timings may change on festival days. <Link to="/notices">Check Notices.</Link><button aria-label="Dismiss notice" onClick={()=>{localStorage.setItem('notice-dismissed','true');setVisible(false)}}><X size={16}/></button></div>}

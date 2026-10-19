@@ -1,0 +1,2 @@
+import { Helmet } from 'react-helmet-async'; import PageHero from '../../components/PageHero/PageHero'; import Placeholder from '../../components/Placeholder/Placeholder';
+export default function Privacy(){return <><Helmet><title>Privacy</title><meta name="description" content="Privacy policy for Dhabaleswar Mandira." /></Helmet><PageHero eyebrow="Legal" title="Privacy policy"/><section className="section"><div className="container"><Placeholder kind="add">Privacy policy content</Placeholder></div></section></>}

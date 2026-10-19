@@ -1,0 +1,1 @@
+.skeleton{background:linear-gradient(90deg,var(--sand),#fff,var(--sand));background-size:200% 100%;animation:shine 1.2s infinite;border-radius:var(--radius)}.page{height:65vh}.card{height:180px}@keyframes shine{to{background-position:-200% 0}}

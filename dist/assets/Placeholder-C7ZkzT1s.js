@@ -1,0 +1,1 @@
+const l="_placeholder_1iyj1_1",c={placeholder:l};function r({children:a,kind:e="verify"}){return React.createElement("span",{className:c.placeholder},"[",e==="add"?"ADD FROM TEMPLE":e==="translate"?"TRANSLATE":"VERIFY","] ",a)}export{r as P};

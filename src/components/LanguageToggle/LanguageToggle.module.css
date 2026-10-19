@@ -1,0 +1,1 @@
+.toggle{display:flex;gap:2px}.toggle button{border:0;background:transparent;color:inherit;padding:8px 5px;cursor:pointer;font-size:12px}.toggle .active{font-weight:700;color:var(--saffron)}

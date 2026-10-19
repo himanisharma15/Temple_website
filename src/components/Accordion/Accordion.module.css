@@ -1,0 +1,1 @@
+.root{border:1px solid var(--gold);border-radius:var(--radius);padding:24px;background:var(--surface);transition:.2s ease}.root:hover{border-color:var(--saffron);transform:translateY(-4px)}

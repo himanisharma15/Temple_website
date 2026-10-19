@@ -1,0 +1,2 @@
+import { Helmet } from 'react-helmet-async'; import PageHero from '../../components/PageHero/PageHero'; import Placeholder from '../../components/Placeholder/Placeholder';
+export default function Terms(){return <><Helmet><title>Terms</title><meta name="description" content="Terms for Dhabaleswar Mandira website." /></Helmet><PageHero eyebrow="Legal" title="Terms of use"/><section className="section"><div className="container"><Placeholder kind="add">Terms content</Placeholder></div></section></>}

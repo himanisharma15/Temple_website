@@ -1,0 +1,2 @@
+export function googleCalendarUrl({ title, start, end }) { const params = new URLSearchParams({ action:'TEMPLATE', text:title, dates:`${start}/${end}` }); return `https://calendar.google.com/calendar/render?${params}`; }
+export function icsEvent({ title, start, end }) { return `BEGIN:VCALENDAR\nVERSION:2.0\nBEGIN:VEVENT\nSUMMARY:${title}\nDTSTART:${start}\nDTEND:${end}\nEND:VEVENT\nEND:VCALENDAR`; }

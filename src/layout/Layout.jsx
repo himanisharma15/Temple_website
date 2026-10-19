@@ -1,0 +1,2 @@
+import NoticeBar from './NoticeBar/NoticeBar'; import Header from './Header/Header'; import Footer from './Footer/Footer'; import StickyMobileBar from './StickyMobileBar/StickyMobileBar'; import BackToTop from '../components/BackToTop/BackToTop'; import styles from './Layout.module.css';
+export default function Layout({ children }){return <><a className="skip" href="#main-content">Skip to content</a><NoticeBar/><Header/><main id="main-content" className={styles.main}>{children}</main><Footer/><StickyMobileBar/><BackToTop/></>}
