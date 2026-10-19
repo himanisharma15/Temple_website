@@ -1,4 +1,4 @@
-import { createContext, useContext, useEffect, useMemo, useState } from 'react';
+import React, { createContext, useContext, useEffect, useMemo, useState } from 'react';
 import { commonI18n } from './common.i18n';
 const Context = createContext(null);
 export function LanguageProvider({ children }) {
