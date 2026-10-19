@@ -1,1 +1,1 @@
-.toggle{display:flex;gap:2px}.toggle button{border:0;background:transparent;color:inherit;padding:8px 5px;cursor:pointer;font-size:12px}.toggle .active{font-weight:700;color:var(--saffron)}
+.toggle{display:flex;gap:2px}.toggle button{border:0;background:transparent;color:#fff;padding:7px 6px;cursor:pointer;font-size:12px;border-radius:999px}.toggle .active{background:#fff;color:var(--indigo);font-weight:700}

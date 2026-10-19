@@ -1,2 +1,2 @@
-import { ArrowUp } from 'lucide-react'; import { useEffect, useState } from 'react';
-export default function BackToTop(){const [show,setShow]=useState(false);useEffect(()=>{const f=()=>setShow(scrollY>800);addEventListener('scroll',f,{passive:true});return()=>removeEventListener('scroll',f)},[]);return show?<button className="back-top icon-button" aria-label="Back to top" onClick={()=>scrollTo({top:0,behavior:'smooth'})}><ArrowUp size={18}/></button>:null}
+import { ArrowUp } from 'lucide-react'; import { useEffect, useState } from 'react'; import styles from './BackToTop.module.css';
+export default function BackToTop(){const [show,setShow]=useState(false);useEffect(()=>{const f=()=>setShow(scrollY>800);addEventListener('scroll',f,{passive:true});return()=>removeEventListener('scroll',f)},[]);return show?<button className={styles.button} aria-label="Back to top" onClick={()=>scrollTo({top:0,behavior:'smooth'})}><ArrowUp size={22}/></button>:null}
