@@ -86,24 +86,7 @@ export default function About() {
         )}
 
         {reveal(
-          <section id="deity" className={`${styles.section} ${styles.sand}`}>
-            <div className="container">
-              <div className={styles.sectionHeader}>
-                <h2>Mythical Origin</h2>
-              </div>
-              <div className={styles.featureCard}>
-                <div className={styles.featureBody}>
-                  <img className={styles.originImage} src={aboutData.origin.image} alt={aboutData.origin.alt} loading="lazy" />
-                  {aboutData.origin.paragraphs.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
-                </div>
-              </div>
-            </div>
-          </section>,
-          0.06
-        )}
-
-        {reveal(
-          <section id="timeline" className={`${styles.section} ${styles.cream}`}>
+          <section id="timeline" className={`${styles.section} ${styles.timelineSection}`}>
             <div className="container">
               <div className={styles.sectionHeader}>
                 <h2>Timeline</h2>
@@ -128,40 +111,6 @@ export default function About() {
             </div>
           </section>,
           0.12
-        )}
-
-        {reveal(
-          <section id="architecture" className={`${styles.section} ${styles.cream}`}>
-            <div className="container">
-              <div className={styles.sectionHeader}>
-                <h2>Architecture</h2>
-              </div>
-              <div className={styles.architectureCopy}>
-                {aboutData.architecture.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
-              </div>
-            </div>
-          </section>,
-          0.16
-        )}
-
-        {reveal(
-          <section id="facts" className={`${styles.section} ${styles.sand}`}>
-            <div className="container">
-              <div className={styles.sectionHeader}>
-                <h2>Location</h2>
-              </div>
-              <p className={styles.architectureCopy}>{aboutData.locationSummary}</p>
-              <div className={styles.factsCard}>
-                {aboutData.facts.map(([label, value]) => (
-                  <div key={label} className={styles.factRow}>
-                    <span className={styles.factLabel}>{label}</span>
-                    <span className={styles.factValue}>{value}</span>
-                  </div>
-                ))}
-              </div>
-            </div>
-          </section>,
-          0.18
         )}
 
         {reveal(

@@ -6,6 +6,7 @@
 
 .cream { background: var(--cream); }
 .sand { background: var(--sand); }
+.timelineSection { background: #F6EDDC; }
 
 .sectionHeader {
   margin-bottom: 2rem;
@@ -14,7 +15,7 @@
 .heroBanner {
   background: #F6EDDC;
   color: #2A1410;
-  padding: 64px 0 80px;
+  padding: 120px 0;
   border-bottom: 1px solid rgba(42, 20, 16, 0.1);
 }
 
@@ -438,7 +439,7 @@
 
 @media (max-width: 768px) {
   .attractionsGrid { grid-template-columns: 1fr; }
-  .heroBanner { padding: 48px 0 56px; }
+  .heroBanner { padding: 64px 0 72px; }
   .heroBanner :global(.container) { width: min(100% - 32px, 1200px); }
   .heroContent h1 { max-width: 16ch; }
   .section {

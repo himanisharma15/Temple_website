@@ -73,17 +73,6 @@ export default function Festivals() {
 			<PageDecor />
 			<FestivalsHero text={text} />
 
-			<section className={`${styles.introBand} ${styles.reveal}`}>
-				<div className={`container ${styles.introLayout}`}>
-					<div className={styles.introCopy}><p>{text('intro.paragraph2')}</p><p>{text('intro.paragraph3')}</p></div>
-					<blockquote className={styles.quote}>
-						<span className={styles.quoteBar} aria-hidden="true" />
-						<svg className={styles.lotus} viewBox="0 0 180 120" fill="none" aria-hidden="true"><path d="M90 104C64 90 53 68 62 48c16 8 26 21 28 39 2-28 13-49 29-62 13 22 11 43-2 63 15-16 31-21 47-17-5 22-29 34-74 33Z" /><path d="M24 105h132M90 103c-12-11-20-24-23-39m23 39c12-11 20-24 27-39" /></svg>
-						<span className={styles.quoteText}>Bāra Māsare<br />Tera Parba</span><span className={styles.quoteTranslation}>{text('intro.quoteTranslation')}</span>
-					</blockquote>
-				</div>
-			</section>
-
 			<section id="festival-grid" className={styles.gridSection} aria-labelledby="festivals-grid-title">
 				<div className={styles.gridContainer}>
 					<div className={styles.gridHeading}>

@@ -1,0 +1,1 @@
+import{a as i}from"./festivals.data-xbPwECq4.js";const a={en:{...i,"hero.visit":"Visit the temple","hero.badge":"Bāra Māsare Tera Parba","hero.badgeTranslation":"Thirteen festivals in twelve months"},od:{},hi:{}};function n(s,e){var t;return((t=a[s])==null?void 0:t[e])||a.en[e]||e}export{n as g};

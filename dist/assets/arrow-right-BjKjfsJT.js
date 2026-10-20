@@ -1,4 +1,8 @@
+<<<<<<<< HEAD:dist/assets/arrow-right-BjKjfsJT.js
 import{c as r}from"./index-BgdO5yRh.js";/**
+========
+import{c as r}from"./index-CkOo7tYL.js";/**
+>>>>>>>> ca0304b (Initial commit: Dhabaleswar Mandira React project skeleton):dist/assets/arrow-right-C7vsB7Tz.js
  * @license lucide-react v0.468.0 - ISC
  *
  * This source code is licensed under the ISC license.

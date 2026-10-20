@@ -1,4 +1,8 @@
+<<<<<<<< HEAD:dist/assets/waves-B5YmKdA9.js
 import{c}from"./index-BgdO5yRh.js";/**
+========
+import{c}from"./index-CkOo7tYL.js";/**
+>>>>>>>> ca0304b (Initial commit: Dhabaleswar Mandira React project skeleton):dist/assets/waves-Dh3vUdgW.js
  * @license lucide-react v0.468.0 - ISC
  *
  * This source code is licensed under the ISC license.

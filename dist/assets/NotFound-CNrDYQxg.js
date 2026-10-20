@@ -1,1 +1,5 @@
+<<<<<<<< HEAD:dist/assets/NotFound-CNrDYQxg.js
 import{j as e,H as t,B as n}from"./index-BgdO5yRh.js";import{P as o}from"./PageHero-CcUSTinL.js";function a(){return e.jsxs(e.Fragment,{children:[e.jsxs(t,{children:[e.jsx("title",{children:"Page not found"}),e.jsx("meta",{name:"description",content:"The requested page could not be found."})]}),e.jsx(o,{eyebrow:"404",title:"This path has wandered",children:e.jsx(n,{to:"/",children:"Return home"})})]})}export{a as default};
+========
+import{j as e,H as t,B as n}from"./index-CkOo7tYL.js";import{P as o}from"./PageHero-CaoAm886.js";function a(){return e.jsxs(e.Fragment,{children:[e.jsxs(t,{children:[e.jsx("title",{children:"Page not found"}),e.jsx("meta",{name:"description",content:"The requested page could not be found."})]}),e.jsx(o,{eyebrow:"404",title:"This path has wandered",children:e.jsx(n,{to:"/",children:"Return home"})})]})}export{a as default};
+>>>>>>>> ca0304b (Initial commit: Dhabaleswar Mandira React project skeleton):dist/assets/NotFound-ewy9IK6h.js

@@ -1,4 +1,8 @@
+<<<<<<<< HEAD:dist/assets/sparkles-FrkAsaX3.js
 import{c as a}from"./index-BgdO5yRh.js";/**
+========
+import{c as a}from"./index-CkOo7tYL.js";/**
+>>>>>>>> ca0304b (Initial commit: Dhabaleswar Mandira React project skeleton):dist/assets/sparkles-D3XZUyyP.js
  * @license lucide-react v0.468.0 - ISC
  *
  * This source code is licensed under the ISC license.

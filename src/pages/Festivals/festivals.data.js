@@ -22,7 +22,7 @@ export const festivalTexts = {
 	'hero.intro': 'Celebrate with us! Explore the divine festivals and events celebrated at Dhabaleswara Mandir. Odisha is a land of colorful festivals, where spirituality is deeply integrated into daily life.',
 	'hero.explore': 'Explore festivals',
 	'featured.eyebrow': 'DHABALESWARA MANDIR',
-	'intro.paragraph2': 'The phrase "Bāra Māsare Tera Parba" translates to "Thirteen festivals in twelve months", encapsulating the rich cultural fabric of Odisha. From grand chariot processions to sacred river rituals, the people of Odisha celebrate life and devotion through diverse observances.',
+	'intro.paragraph2': 'From grand chariot processions to sacred river rituals, the people of Odisha celebrate life and devotion through diverse observances.',
 	'intro.paragraph3': 'At Dhabaleswara Mandir, festivals like Maha Shivaratri, Bada-osha, and Kartika Purnima are observed with immense devotion, drawing thousands of pilgrims who come to offer prayers and experience the holy, peaceful atmosphere of this island shrine.',
 	'intro.quoteTranslation': 'Thirteen festivals in twelve months',
 	'featured.label': 'Featured',

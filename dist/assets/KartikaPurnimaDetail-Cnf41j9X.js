@@ -1,4 +1,8 @@
+<<<<<<<< HEAD:dist/assets/KartikaPurnimaDetail-Cnf41j9X.js
 import{c,j as a,H as o,L as s}from"./index-BgdO5yRh.js";import{M as d}from"./moon-o-S-anCj.js";import{A as n}from"./arrow-right-BjKjfsJT.js";import{W as l}from"./waves-B5YmKdA9.js";import{F as h}from"./flame-IWHvntMD.js";import{S as j}from"./sun-BSBm1Lri.js";/**
+========
+import{c,j as a,H as o,L as s}from"./index-CkOo7tYL.js";import{M as d}from"./moon-BoZJvh0W.js";import{A as n}from"./arrow-right-C7vsB7Tz.js";import{W as l}from"./waves-Dh3vUdgW.js";import{F as h}from"./flame-D1vuU0iv.js";import{S as j}from"./sun-DYjhh-5G.js";/**
+>>>>>>>> ca0304b (Initial commit: Dhabaleswar Mandira React project skeleton):dist/assets/KartikaPurnimaDetail-Cz29U0mA.js
  * @license lucide-react v0.468.0 - ISC
  *
  * This source code is licensed under the ISC license.

@@ -1,4 +1,8 @@
+<<<<<<<< HEAD:dist/assets/BadaOshaDetail-CXuop4hn.js
 import{c as h,j as a,H as l,L as r}from"./index-BgdO5yRh.js";import{F as o}from"./flower-2-Cj0bPsnx.js";import{A as n}from"./arrow-right-BjKjfsJT.js";import{L as m}from"./landmark-BPH-0Suc.js";import{S as f}from"./sparkles-FrkAsaX3.js";/**
+========
+import{c as h,j as a,H as l,L as r}from"./index-CkOo7tYL.js";import{F as o}from"./flower-2-Ba25qBty.js";import{A as n}from"./arrow-right-C7vsB7Tz.js";import{L as m}from"./landmark-DAO4moVF.js";import{S as f}from"./sparkles-D3XZUyyP.js";/**
+>>>>>>>> ca0304b (Initial commit: Dhabaleswar Mandira React project skeleton):dist/assets/BadaOshaDetail-BE83Wa5u.js
  * @license lucide-react v0.468.0 - ISC
  *
  * This source code is licensed under the ISC license.

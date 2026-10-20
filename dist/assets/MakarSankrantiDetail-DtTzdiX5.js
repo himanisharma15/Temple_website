@@ -1,4 +1,8 @@
+<<<<<<<< HEAD:dist/assets/MakarSankrantiDetail-DtTzdiX5.js
 import{c as n,j as e,H as d,L as s}from"./index-BgdO5yRh.js";import{S as t}from"./sun-BSBm1Lri.js";import{A as r}from"./arrow-right-BjKjfsJT.js";import{W as h}from"./waves-B5YmKdA9.js";/**
+========
+import{c as n,j as e,H as d,L as s}from"./index-CkOo7tYL.js";import{S as t}from"./sun-DYjhh-5G.js";import{A as r}from"./arrow-right-C7vsB7Tz.js";import{W as h}from"./waves-Dh3vUdgW.js";/**
+>>>>>>>> ca0304b (Initial commit: Dhabaleswar Mandira React project skeleton):dist/assets/MakarSankrantiDetail-BCXjiCuz.js
  * @license lucide-react v0.468.0 - ISC
  *
  * This source code is licensed under the ISC license.

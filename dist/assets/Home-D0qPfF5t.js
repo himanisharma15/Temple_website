@@ -1,4 +1,8 @@
+<<<<<<<< HEAD:dist/assets/Home-D0qPfF5t.js
 import{c as C,u as x,d as W,r as g,j as e,L as D,a as K,M as U,H as Q}from"./index-BgdO5yRh.js";import{A as I}from"./arrow-right-BjKjfsJT.js";import{S as b}from"./ScrollReveal-DiMMU9OS.js";import{P as F}from"./Placeholder-DHgp5cGe.js";import{F as X}from"./flower-2-Cj0bPsnx.js";import{S as G}from"./sunrise-BN5eFncA.js";import{S as Z}from"./sun-BSBm1Lri.js";import{M as Y}from"./moon-o-S-anCj.js";import{C as J}from"./circle-B6Pa5Unf.js";import{S as R}from"./sparkles-FrkAsaX3.js";import{W as ee}from"./waves-B5YmKdA9.js";import{L as ae}from"./landmark-BPH-0Suc.js";import{A as E}from"./AppImage-C5Cjnzbk.js";/**
+========
+import{c as C,u as x,e as W,r as g,j as e,L as D,b as K,a as U,H as Q}from"./index-CkOo7tYL.js";import{A as I}from"./arrow-right-C7vsB7Tz.js";import{S as b}from"./ScrollReveal-DnWLYsgT.js";import{P as F}from"./Placeholder-C2i9901c.js";import{F as X}from"./flower-2-Ba25qBty.js";import{S as G}from"./sunrise-CyT5cCWp.js";import{S as Z}from"./sun-DYjhh-5G.js";import{M as Y}from"./moon-BoZJvh0W.js";import{S as R}from"./sparkles-D3XZUyyP.js";import{W as J}from"./waves-Dh3vUdgW.js";import{L as ee}from"./landmark-DAO4moVF.js";import{A as E}from"./AppImage-vvSuRt05.js";/**
+>>>>>>>> ca0304b (Initial commit: Dhabaleswar Mandira React project skeleton):dist/assets/Home-CMKk9slF.js
  * @license lucide-react v0.468.0 - ISC
  *
  * This source code is licensed under the ISC license.

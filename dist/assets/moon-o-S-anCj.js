@@ -1,4 +1,8 @@
+<<<<<<<< HEAD:dist/assets/moon-o-S-anCj.js
 import{c as o}from"./index-BgdO5yRh.js";/**
+========
+import{c as o}from"./index-CkOo7tYL.js";/**
+>>>>>>>> ca0304b (Initial commit: Dhabaleswar Mandira React project skeleton):dist/assets/moon-BoZJvh0W.js
  * @license lucide-react v0.468.0 - ISC
  *
  * This source code is licensed under the ISC license.
