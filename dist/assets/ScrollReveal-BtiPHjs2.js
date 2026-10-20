@@ -1,1 +1,0 @@
-import{j as o,m as n}from"./index-37TfQi3n.js";function a({children:i,delay:t=0}){return o.jsx(n.div,{initial:{opacity:0,y:24},whileInView:{opacity:1,y:0},viewport:{once:!0,amount:.15},transition:{duration:.5,delay:t},children:i})}export{a as S};

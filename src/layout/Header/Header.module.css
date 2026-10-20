@@ -13,8 +13,8 @@
 .nav a:focus-visible,.logo:focus-visible,.menuButton:focus-visible,.donate:focus-visible{outline:3px solid #B8430F;outline-offset:4px;border-radius:3px}
 .overlay:not(.scrolled) .nav a:focus-visible,.overlay:not(.scrolled) .logo:focus-visible,.overlay:not(.scrolled) .menuButton:focus-visible{outline-color:#fff}
 .tools{display:flex;align-items:center;gap:12px}
-.donate{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:0 20px;border-radius:999px;background:#B8430F;color:#fff;text-decoration:none;white-space:nowrap;font-size:14px;font-weight:600;transition:background .18s ease}
-.donate:hover{background:#8F3309}
+.donate{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:0 20px;border-radius:999px;background:var(--primary);color:#fff;text-decoration:none;white-space:nowrap;font-size:14px;font-weight:600;box-shadow:0 6px 16px rgba(214,47,47,.24);transition:background .18s ease,box-shadow .18s ease}
+.donate:hover{background:var(--primary-dark);box-shadow:0 8px 20px rgba(214,47,47,.32)}
 .menuButton{display:none;align-items:center;justify-content:center;width:44px;height:44px;padding:0;border:0;background:transparent;color:inherit;cursor:pointer}
 .mobileMenu{position:absolute;top:100%;right:0;left:0;z-index:1;padding:12px 24px 24px;background:#F6EDDC;color:#2A1410;border-bottom:1px solid rgba(42,20,16,.1);box-shadow:0 8px 16px rgba(42,20,16,.12)}
 .mobileMenu nav{display:grid;max-width:1200px;margin:0 auto 16px}
