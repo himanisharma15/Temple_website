@@ -1,0 +1,47 @@
+.page{--naga-cream:#EFE1C5;--naga-ivory:#F8EFDF;--naga-brown:#321B12;--naga-rust:#B83D0B;--naga-gold:#C6A15B;background:var(--naga-cream);color:var(--naga-brown);font-family:'Hind',sans-serif}
+.container{width:min(1180px,calc(100% - 48px));margin-inline:auto}
+.hero{padding:24px 0 82px;background:var(--naga-cream)}
+.breadcrumb{display:flex;align-items:center;gap:11px;flex-wrap:wrap;margin:0 0 42px;color:rgba(50,27,18,.7);font-size:14px}
+.breadcrumb a{color:var(--naga-rust);text-decoration:none}.breadcrumb a:hover{text-decoration:underline}
+.heroGrid{display:grid;grid-template-columns:minmax(0,.86fr) minmax(0,1.14fr);align-items:center;gap:clamp(40px,7vw,96px)}
+.heroCopy{padding:8px 0}
+.eyebrow,.sectionKicker{margin:0 0 14px;color:var(--naga-rust);font-size:12px;font-weight:700;letter-spacing:.16em;line-height:1.5}
+.heroCopy h1{max-width:620px;margin:0;color:var(--naga-brown);font:400 clamp(3rem,6vw,5.3rem)/1.03 'Marcellus',serif}
+.divider{display:flex;align-items:center;gap:10px;width:172px;margin:26px 0 17px;color:var(--naga-rust)}.divider span{height:1px;flex:1;background:var(--naga-gold)}
+.subtitle{margin:0;color:var(--naga-rust);font:400 23px/1.4 'Marcellus',serif}
+.heroIntro{max-width:46ch;margin:15px 0 0;color:rgba(50,27,18,.78);font-size:17px;line-height:1.8}
+.heroLink{display:inline-flex;align-items:center;gap:9px;margin-top:27px;color:var(--naga-rust);font-size:15px;font-weight:700;text-decoration:none}.heroLink:hover{text-decoration:underline}
+.heroLink:focus-visible,.visitButton:focus-visible{outline:3px solid var(--naga-rust);outline-offset:4px}
+.heroFigure{position:relative;margin:0;padding:10px;border:1px solid rgba(198,161,91,.48);border-radius:10px;background:var(--naga-ivory);box-shadow:0 18px 48px rgba(50,27,18,.13)}
+.heroFigure img{display:block;width:100%;aspect-ratio:1.25;object-fit:cover;object-position:center 47%;border-radius:6px}
+.heroFigure figcaption{padding:11px 7px 2px;color:rgba(50,27,18,.72);font-size:13px}
+.symbolismSection{padding:82px 0 90px;background:var(--naga-ivory)}
+.sectionHeading{max-width:850px;margin:0 0 34px}.sectionHeading h2,.offeringCopy h2,.shivaInner h2,.visitSection h2{margin:0;color:var(--naga-brown);font:400 clamp(2rem,4vw,3rem)/1.15 'Marcellus',serif}
+.sectionHeading>p:last-child{max-width:76ch;margin:14px 0 0;color:rgba(50,27,18,.78);font-size:16px;line-height:1.8}
+.symbolismGrid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+.symbolismCard{padding:26px 25px 29px;border:1px solid rgba(198,161,91,.42);border-radius:7px;background:#fff9ef;box-shadow:0 7px 22px rgba(50,27,18,.06);transition:transform .22s ease,box-shadow .22s ease}
+.symbolismCard:hover{transform:translateY(-4px);box-shadow:0 14px 30px rgba(50,27,18,.12)}
+.cardIcon,.shivaIcon{display:grid;width:40px;height:40px;place-items:center;margin-bottom:16px;border-radius:50%;background:rgba(184,61,11,.1);color:var(--naga-rust)}
+.symbolismCard h3{margin:0;color:var(--naga-brown);font:400 22px/1.28 'Marcellus',serif}
+.symbolismCard p,.offeringCopy>p:last-child,.shivaInner div>p:not(.sectionKicker){margin:13px 0 0;color:rgba(50,27,18,.78);font-size:15px;line-height:1.8}
+.offeringSection{padding:82px 0 90px;background:var(--naga-cream)}
+.offeringGrid{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);align-items:center;gap:clamp(36px,7vw,86px)}
+.offeringCopy>p:last-child{font-size:16px;line-height:1.85}
+.offeringList{display:grid;gap:12px;margin:0;padding:0;list-style:none}
+.offeringList li{position:relative;padding:16px 19px 16px 48px;border:1px solid rgba(198,161,91,.42);border-radius:5px;background:var(--naga-ivory);color:rgba(50,27,18,.85);font-size:15px;line-height:1.65}
+.offeringList li::before{position:absolute;top:50%;left:19px;width:9px;height:9px;border-radius:50%;background:var(--naga-rust);content:'';transform:translateY(-50%)}
+.shivaSection{padding:75px 0 82px;background:var(--naga-ivory)}
+.shivaInner{display:grid;grid-template-columns:50px minmax(0,1fr);gap:22px;align-items:start;max-width:980px}
+.shivaIcon{width:48px;height:48px;margin:2px 0 0}
+.shivaInner h2{margin-bottom:12px}
+.shivaInner div>p:not(.sectionKicker){max-width:78ch;font-size:16px;line-height:1.85}
+.shivaInner .prayerText{padding-top:15px;border-top:1px solid rgba(198,161,91,.5)}
+.prayerText strong{display:block;margin-bottom:5px;color:var(--naga-rust);font-family:'Marcellus',serif;font-size:18px;font-weight:400}
+.visitSection{padding:76px 0 84px;background:#321B12;color:var(--naga-ivory);text-align:center}
+.visitSection .sectionKicker{color:#E0BD78}.visitSection h2{color:var(--naga-ivory)}
+.visitSection p:not(.sectionKicker){max-width:56ch;margin:17px auto 0;color:rgba(248,239,223,.86);font-size:17px;line-height:1.7}
+.visitButton{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:49px;margin-top:26px;padding:0 21px;border-radius:4px;background:var(--naga-rust);color:#fff;text-decoration:none;font-size:15px;font-weight:700;transition:background .2s ease,transform .2s ease}
+.visitButton:hover{transform:translateY(-2px);background:#D04A17}
+@media(max-width:900px){.heroGrid{grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:36px}.symbolismGrid{gap:15px}.symbolismCard{padding-inline:20px}}
+@media(max-width:680px){.container{width:min(100% - 36px,520px)}.hero{padding:18px 0 54px}.breadcrumb{margin-bottom:29px}.heroGrid{grid-template-columns:1fr;gap:28px}.heroCopy h1{font-size:clamp(2.8rem,14vw,4rem)}.subtitle{font-size:21px}.heroFigure{grid-row:1}.heroFigure img{aspect-ratio:1.18}.symbolismSection,.offeringSection{padding:62px 0 70px}.symbolismGrid{grid-template-columns:1fr;gap:15px}.symbolismCard{padding:23px}.offeringGrid{grid-template-columns:1fr;gap:25px}.shivaSection{padding:58px 0 65px}.shivaInner{grid-template-columns:40px minmax(0,1fr);gap:15px}.shivaIcon{width:40px;height:40px}.sectionHeading h2,.offeringCopy h2,.shivaInner h2{font-size:clamp(1.9rem,9vw,2.5rem)}.visitSection{padding:60px 0 68px}}
+@media(prefers-reduced-motion:reduce){.symbolismCard,.visitButton{transition:none}.symbolismCard:hover,.visitButton:hover{transform:none}}

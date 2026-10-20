@@ -1,0 +1,47 @@
+.page{--bada-cream:#EFE1C5;--bada-ivory:#F8EFDF;--bada-brown:#321B12;--bada-rust:#B83D0B;--bada-gold:#C6A15B;background:var(--bada-cream);color:var(--bada-brown);font-family:'Hind',sans-serif}
+.container{width:min(1180px,calc(100% - 48px));margin-inline:auto}
+.hero{padding:24px 0 82px;background:var(--bada-cream)}
+.breadcrumb{display:flex;align-items:center;gap:11px;flex-wrap:wrap;margin:0 0 42px;color:rgba(50,27,18,.7);font-size:14px}
+.breadcrumb a{color:var(--bada-rust);text-decoration:none}.breadcrumb a:hover{text-decoration:underline}
+.heroGrid{display:grid;grid-template-columns:minmax(0,.86fr) minmax(0,1.14fr);align-items:center;gap:clamp(40px,7vw,96px)}
+.heroCopy{padding:8px 0}
+.eyebrow,.sectionKicker{margin:0 0 14px;color:var(--bada-rust);font-size:12px;font-weight:700;letter-spacing:.16em;line-height:1.5}
+.heroCopy h1{max-width:620px;margin:0;color:var(--bada-brown);font:400 clamp(3rem,6vw,5.3rem)/1.03 'Marcellus',serif}
+.divider{display:flex;align-items:center;gap:10px;width:172px;margin:26px 0 17px;color:var(--bada-rust)}.divider span{height:1px;flex:1;background:var(--bada-gold)}
+.subtitle{margin:0;color:var(--bada-rust);font:400 23px/1.4 'Marcellus',serif}
+.heroIntro{max-width:46ch;margin:15px 0 0;color:rgba(50,27,18,.78);font-size:17px;line-height:1.8}
+.heroLink{display:inline-flex;align-items:center;gap:9px;margin-top:27px;color:var(--bada-rust);font-size:15px;font-weight:700;text-decoration:none}.heroLink:hover{text-decoration:underline}
+.heroLink:focus-visible,.visitButton:focus-visible{outline:3px solid var(--bada-rust);outline-offset:4px}
+.heroFigure{position:relative;margin:0;padding:10px;border:1px solid rgba(198,161,91,.48);border-radius:10px;background:var(--bada-ivory);box-shadow:0 18px 48px rgba(50,27,18,.13)}
+.heroFigure img{display:block;width:100%;aspect-ratio:1.25;object-fit:cover;object-position:center 48%;border-radius:6px}
+.heroFigure figcaption{padding:11px 7px 2px;color:rgba(50,27,18,.72);font-size:13px}
+.aboutSection{padding:74px 0 80px;background:var(--bada-ivory);text-align:center}
+.aboutInner{max-width:950px}.aboutSection h2,.sectionHeading h2,.pithaInner h2,.visitSection h2{margin:0;color:var(--bada-brown);font:400 clamp(2rem,4vw,3rem)/1.15 'Marcellus',serif}
+.aboutText{max-width:82ch;margin:23px auto 0;color:rgba(50,27,18,.82);font-size:17px;line-height:1.9}
+.pithaSection{padding:48px 0;background:var(--bada-cream)}
+.pithaInner{display:grid;grid-template-columns:56px minmax(0,1fr);align-items:center;gap:22px;padding:30px 34px;border-left:3px solid var(--bada-rust);background:var(--bada-ivory);box-shadow:0 9px 28px rgba(50,27,18,.07)}
+.pithaIcon{display:grid;width:48px;height:48px;place-items:center;border-radius:50%;background:rgba(184,61,11,.1);color:var(--bada-rust)}
+.pithaInner .sectionKicker{margin-bottom:8px}.pithaInner h2{font-size:27px}.pithaInner div>p:last-child{margin:10px 0 0;color:rgba(50,27,18,.8);font-size:16px;line-height:1.7}
+.significanceSection{padding:82px 0 90px;background:var(--bada-ivory)}
+.sectionHeading{max-width:850px;margin:0 0 32px}.sectionHeading h2{margin-bottom:13px}.sectionHeading>p:last-child{max-width:72ch;margin:0;color:rgba(50,27,18,.78);font-size:16px;line-height:1.75}
+.storyGrid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+.storyCard{padding:26px 25px 28px;border:1px solid rgba(198,161,91,.42);border-radius:7px;background:#fff9ef;box-shadow:0 7px 22px rgba(50,27,18,.06);transition:transform .22s ease,box-shadow .22s ease}
+.storyCard:hover{transform:translateY(-4px);box-shadow:0 14px 30px rgba(50,27,18,.12)}
+.storyIcon{display:grid;width:38px;height:38px;place-items:center;margin-bottom:16px;border-radius:50%;background:rgba(184,61,11,.1);color:var(--bada-rust)}
+.storyCard h3,.prasadaCard h3{margin:0;color:var(--bada-brown);font:400 22px/1.28 'Marcellus',serif}
+.storyCard p,.prasadaCard>p:not(.prasadaLabel):not(.prasadaNote){margin:13px 0 0;color:rgba(50,27,18,.78);font-size:15px;line-height:1.78}
+.prasadaSection{padding:86px 0 96px;background:var(--bada-cream)}
+.prasadaGrid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+.prasadaCard{position:relative;padding:29px 25px 30px;border:1px solid rgba(198,161,91,.45);border-radius:7px;background:var(--bada-ivory);box-shadow:0 8px 25px rgba(50,27,18,.07)}
+.prasadaNumber{display:grid;width:40px;height:40px;place-items:center;margin-bottom:22px;border:1px solid rgba(184,61,11,.35);border-radius:50%;color:var(--bada-rust);font:400 17px/1 'Marcellus',serif}
+.prasadaLabel{margin:0 0 8px;color:var(--bada-rust);font-size:12px;font-weight:700;letter-spacing:.07em;text-transform:uppercase}
+.prasadaCard h3{font-size:21px}
+.prasadaNote{margin:18px 0 0;padding-top:16px;border-top:1px solid rgba(198,161,91,.5);color:rgba(50,27,18,.82);font-size:14px;font-weight:600;line-height:1.75}
+.visitSection{padding:76px 0 84px;background:#321B12;color:var(--bada-ivory);text-align:center}
+.visitSection .sectionKicker{color:#E0BD78}.visitSection h2{color:var(--bada-ivory)}
+.visitSection p:not(.sectionKicker){max-width:56ch;margin:17px auto 0;color:rgba(248,239,223,.86);font-size:17px;line-height:1.7}
+.visitButton{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:49px;margin-top:26px;padding:0 21px;border-radius:4px;background:var(--bada-rust);color:#fff;text-decoration:none;font-size:15px;font-weight:700;transition:background .2s ease,transform .2s ease}
+.visitButton:hover{transform:translateY(-2px);background:#D04A17}
+@media(max-width:900px){.heroGrid{grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:36px}.storyGrid,.prasadaGrid{gap:15px}.storyCard,.prasadaCard{padding-inline:20px}}
+@media(max-width:680px){.container{width:min(100% - 36px,520px)}.hero{padding:18px 0 54px}.breadcrumb{margin-bottom:29px}.heroGrid{grid-template-columns:1fr;gap:28px}.heroCopy h1{font-size:clamp(2.8rem,14vw,4rem)}.subtitle{font-size:21px}.heroFigure{grid-row:1}.heroFigure img{aspect-ratio:1.18}.aboutSection{padding:56px 0 62px}.aboutText{font-size:16px}.pithaSection{padding:30px 0}.pithaInner{grid-template-columns:42px minmax(0,1fr);gap:15px;padding:24px 18px}.pithaIcon{width:40px;height:40px}.significanceSection,.prasadaSection{padding:62px 0 70px}.storyGrid,.prasadaGrid{grid-template-columns:1fr;gap:15px}.storyCard,.prasadaCard{padding:23px}.sectionHeading h2{font-size:clamp(1.9rem,9vw,2.5rem)}.visitSection{padding:60px 0 68px}}
+@media(prefers-reduced-motion:reduce){.storyCard,.visitButton{transition:none}.storyCard:hover,.visitButton:hover{transform:none}}

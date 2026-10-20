@@ -7,9 +7,9 @@ const Notices = page('Notices'); const Contact = page('Contact'); const Privacy 
 export default [
   { path: '/', label: 'Home', element: Home, showInNav: true }, { path: '/about', label: 'About', element: About, showInNav: true },
   { path: '/darshan-seva', label: 'Darshan & Seva', element: DarshanSeva, showInNav: true }, { path: '/seva-booking', label: 'Seva Booking', element: SevaBooking },
-  { path: '/festivals', label: 'Festivals', element: Festivals, showInNav: true }, { path: '/festivals/:slug', label: 'Festival Detail', element: FestivalDetail },
+  { path: '/festivals', label: 'Festivals', element: Festivals, showInNav: true },
   { path: '/gallery', label: 'Gallery', element: Gallery, showInNav: true }, { path: '/visit', label: 'Visit Us', element: Visit, showInNav: true },
   { path: '/donate', label: 'Donate', element: Donate }, { path: '/donate/thank-you', label: 'Thank You', element: ThankYou },
   { path: '/notices', label: 'Notices', element: Notices }, { path: '/contact', label: 'Contact', element: Contact, showInNav: true },
-  { path: '/privacy', label: 'Privacy', element: Privacy }, { path: '/terms', label: 'Terms', element: Terms }, { path: '*', label: 'Not Found', element: NotFound },
+  { path: '/privacy', label: 'Privacy', element: Privacy }, { path: '/terms', label: 'Terms', element: Terms }, { path: '/:slug', label: 'Festival detail', element: FestivalDetail }, { path: '*', label: 'Not Found', element: NotFound },
 ];

@@ -1,1 +1,7 @@
-.toggle{display:flex;gap:4px}.toggle button{border:1px solid var(--gold);background:transparent;color:var(--brown-700);padding:7px 8px;cursor:pointer;font-size:12px;border-radius:999px}.toggle button:hover{color:var(--primary)}.toggle .active{background:var(--primary);border-color:var(--primary);color:#fff;font-weight:700}.headerHero .toggle button{color:#fff}.headerHero .toggle .active{background:#fff;border-color:#fff;color:var(--brown-700)}
+.toggle{display:flex;align-items:center;gap:0;padding:2px;border:1px solid currentColor;border-radius:999px;white-space:nowrap}
+.toggle button{display:inline-flex;align-items:center;justify-content:center;min-width:36px;min-height:36px;padding:0 7px;border:0;border-radius:999px;background:transparent;color:inherit;cursor:pointer;font:500 12px/1 'Noto Sans Oriya','Noto Sans Devanagari',sans-serif;white-space:nowrap}
+.toggle button:focus-visible{outline:2px solid currentColor;outline-offset:1px}
+.toggle .active{background:#2A1410;color:#F6EDDC;font-weight:700}
+.overlay{border-color:#fff;color:#fff}
+.overlay button:focus-visible{outline-color:#F6EDDC}
+.light{border-color:#2A1410;color:#2A1410}

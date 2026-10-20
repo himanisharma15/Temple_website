@@ -1,0 +1,45 @@
+.page{--shiv-cream:#EFE1C5;--shiv-ivory:#F8EFDF;--shiv-brown:#321B12;--shiv-rust:#B83D0B;--shiv-gold:#C6A15B;background:var(--shiv-cream);color:var(--shiv-brown);font-family:'Hind',sans-serif}
+.container{width:min(1180px,calc(100% - 48px));margin-inline:auto}
+.hero{padding:24px 0 82px;background:var(--shiv-cream)}
+.breadcrumb{display:flex;align-items:center;gap:11px;flex-wrap:wrap;margin:0 0 42px;color:rgba(50,27,18,.7);font-size:14px}
+.breadcrumb a{color:var(--shiv-rust);text-decoration:none}.breadcrumb a:hover{text-decoration:underline}
+.heroGrid{display:grid;grid-template-columns:minmax(0,.86fr) minmax(0,1.14fr);align-items:center;gap:clamp(40px,7vw,96px)}
+.heroCopy{padding:8px 0}
+.eyebrow,.sectionKicker{margin:0 0 14px;color:var(--shiv-rust);font-size:12px;font-weight:700;letter-spacing:.16em;line-height:1.5}
+.heroCopy h1{max-width:620px;margin:0;color:var(--shiv-brown);font:400 clamp(3rem,6vw,5.3rem)/1.03 'Marcellus',serif}
+.divider{display:flex;align-items:center;gap:10px;width:172px;margin:26px 0 17px;color:var(--shiv-rust)}
+.divider span{height:1px;flex:1;background:var(--shiv-gold)}
+.subtitle{margin:0;color:var(--shiv-rust);font:400 23px/1.4 'Marcellus',serif}
+.heroIntro{max-width:46ch;margin:15px 0 0;color:rgba(50,27,18,.78);font-size:17px;line-height:1.8}
+.heroLink{display:inline-flex;align-items:center;gap:9px;margin-top:27px;color:var(--shiv-rust);font-size:15px;font-weight:700;text-decoration:none}.heroLink:hover{text-decoration:underline}
+.heroFigure{position:relative;margin:0;padding:10px;border:1px solid rgba(198,161,91,.48);border-radius:10px;background:var(--shiv-ivory);box-shadow:0 18px 48px rgba(50,27,18,.13)}
+.heroFigure img{display:block;width:100%;aspect-ratio:1.25;object-fit:cover;object-position:center 46%;border-radius:6px}
+.heroFigure figcaption{padding:11px 7px 2px;color:rgba(50,27,18,.72);font-size:13px}
+.aboutSection{padding:74px 0 80px;background:var(--shiv-ivory);text-align:center}
+.aboutInner{max-width:900px}.aboutSection h2,.sectionHeading h2,.significanceCopy h2,.visitSection h2{margin:0;color:var(--shiv-brown);font:400 clamp(2rem,4vw,3rem)/1.15 'Marcellus',serif}
+.aboutText{max-width:78ch;margin:23px auto 0;color:rgba(50,27,18,.82);font-size:17px;line-height:1.9}
+.ritualSection{padding:88px 0 96px;background:var(--shiv-cream)}
+.sectionHeading{margin-bottom:34px}.ritualGrid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}
+.ritualCard{overflow:hidden;border:1px solid rgba(198,161,91,.42);border-radius:8px;background:var(--shiv-ivory);box-shadow:0 7px 22px rgba(50,27,18,.07);transition:transform .24s ease,box-shadow .24s ease}
+.ritualCard:hover{transform:translateY(-4px);box-shadow:0 14px 30px rgba(50,27,18,.13)}
+.ritualImage{overflow:hidden;aspect-ratio:1.55;background:#e7d6b8}.ritualImage img{display:block;width:100%;height:100%;object-fit:cover;transition:transform .4s ease}.ritualCard:hover .ritualImage img{transform:scale(1.04)}
+.ritualBody{padding:22px 23px 26px}.ritualIcon{display:grid;width:36px;height:36px;place-items:center;margin-bottom:13px;border-radius:50%;background:rgba(184,61,11,.1);color:var(--shiv-rust)}
+.ritualBody h3{margin:0;color:var(--shiv-brown);font:400 22px/1.25 'Marcellus',serif}.ritualBody p{margin:10px 0 0;color:rgba(50,27,18,.78);font-size:15px;line-height:1.7}
+.significanceSection{padding:72px 0;background:var(--shiv-ivory)}
+.significanceGrid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,.88fr);align-items:center;gap:clamp(36px,7vw,88px)}
+.significanceImage{display:block;width:100%;aspect-ratio:1.25;object-fit:cover;object-position:center 40%;border-radius:8px;box-shadow:0 14px 34px rgba(50,27,18,.13)}
+.significanceCopy p:last-child{max-width:56ch;margin:19px 0 0;color:rgba(50,27,18,.82);font-size:17px;line-height:1.85}
+.gallerySection{padding:88px 0 96px;background:var(--shiv-cream)}
+.galleryGrid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+.galleryButton{display:block;overflow:hidden;aspect-ratio:1.35;padding:0;border:1px solid rgba(198,161,91,.5);border-radius:7px;background:var(--shiv-ivory);cursor:zoom-in}
+.galleryButton img{display:block;width:100%;height:100%;object-fit:cover;transition:transform .38s ease}.galleryButton:hover img{transform:scale(1.055)}
+.galleryButton:focus-visible,.heroLink:focus-visible,.visitButton:focus-visible,.lightboxClose:focus-visible{outline:3px solid var(--shiv-rust);outline-offset:4px}
+.visitSection{padding:76px 0 84px;background:#321B12;color:var(--shiv-ivory);text-align:center}
+.visitSection .sectionKicker{color:#E0BD78}.visitSection h2{color:var(--shiv-ivory)}.visitSection p:not(.sectionKicker){max-width:56ch;margin:17px auto 0;color:rgba(248,239,223,.86);font-size:17px;line-height:1.7}
+.visitButton{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:49px;margin-top:26px;padding:0 21px;border-radius:4px;background:var(--shiv-rust);color:#fff;text-decoration:none;font-size:15px;font-weight:700;transition:background .2s ease,transform .2s ease}.visitButton:hover{transform:translateY(-2px);background:#D04A17}
+.lightbox{position:fixed;z-index:300;inset:0;display:grid;place-items:center;padding:36px;background:rgba(25,13,9,.91);cursor:zoom-out}
+.lightbox img{display:block;max-width:min(1100px,100%);max-height:calc(100vh - 72px);object-fit:contain;border-radius:5px;box-shadow:0 20px 70px rgba(0,0,0,.4);cursor:default}
+.lightboxClose{position:absolute;top:18px;right:20px;display:grid;width:44px;height:44px;place-items:center;border:1px solid rgba(248,239,223,.55);border-radius:50%;background:rgba(50,27,18,.65);color:#fff;cursor:pointer}
+@media(max-width:900px){.heroGrid{grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:36px}.ritualGrid{gap:16px}.ritualBody{padding:19px}.galleryGrid{gap:14px}}
+@media(max-width:680px){.container{width:min(100% - 36px,520px)}.hero{padding:18px 0 54px}.breadcrumb{margin-bottom:29px}.heroGrid{grid-template-columns:1fr;gap:28px}.heroCopy h1{font-size:clamp(2.8rem,14vw,4rem)}.subtitle{font-size:21px}.heroFigure{grid-row:1}.heroFigure img{aspect-ratio:1.18}.aboutSection{padding:56px 0 62px}.aboutText{font-size:16px}.ritualSection,.gallerySection{padding:64px 0 72px}.ritualGrid{grid-template-columns:1fr;gap:18px}.ritualImage{aspect-ratio:1.7}.significanceSection{padding:58px 0}.significanceGrid{grid-template-columns:1fr;gap:27px}.significanceImage{aspect-ratio:1.35}.galleryGrid{grid-template-columns:repeat(2,minmax(0,1fr));gap:11px}.galleryButton{aspect-ratio:1.05}.visitSection{padding:60px 0 68px}}
+@media(prefers-reduced-motion:reduce){.ritualCard,.ritualImage img,.galleryButton img,.visitButton{transition:none}.ritualCard:hover,.visitButton:hover{transform:none}.ritualCard:hover .ritualImage img,.galleryButton:hover img{transform:none}}

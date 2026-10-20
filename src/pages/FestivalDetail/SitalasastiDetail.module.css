@@ -1,0 +1,44 @@
+.page{--sitala-cream:#EFE1C5;--sitala-ivory:#F8EFDF;--sitala-brown:#321B12;--sitala-rust:#B83D0B;--sitala-gold:#C6A15B;background:var(--sitala-cream);color:var(--sitala-brown);font-family:'Hind',sans-serif}
+.container{width:min(1180px,calc(100% - 48px));margin-inline:auto}
+.hero{padding:24px 0 82px;background:var(--sitala-cream)}
+.breadcrumb{display:flex;align-items:center;gap:11px;flex-wrap:wrap;margin:0 0 42px;color:rgba(50,27,18,.7);font-size:14px}
+.breadcrumb a{color:var(--sitala-rust);text-decoration:none}.breadcrumb a:hover{text-decoration:underline}
+.heroGrid{display:grid;grid-template-columns:minmax(0,.86fr) minmax(0,1.14fr);align-items:center;gap:clamp(40px,7vw,96px)}
+.heroCopy{padding:8px 0}
+.eyebrow,.sectionKicker{margin:0 0 14px;color:var(--sitala-rust);font-size:12px;font-weight:700;letter-spacing:.16em;line-height:1.5}
+.heroCopy h1{max-width:620px;margin:0;color:var(--sitala-brown);font:400 clamp(3rem,6vw,5.3rem)/1.03 'Marcellus',serif}
+.divider{display:flex;align-items:center;gap:10px;width:172px;margin:26px 0 17px;color:var(--sitala-rust)}.divider span{height:1px;flex:1;background:var(--sitala-gold)}
+.subtitle{margin:0;color:var(--sitala-rust);font:400 23px/1.4 'Marcellus',serif}
+.heroIntro{max-width:46ch;margin:15px 0 0;color:rgba(50,27,18,.78);font-size:17px;line-height:1.8}
+.heroLink{display:inline-flex;align-items:center;gap:9px;margin-top:27px;color:var(--sitala-rust);font-size:15px;font-weight:700;text-decoration:none}.heroLink:hover{text-decoration:underline}
+.heroLink:focus-visible,.visitButton:focus-visible{outline:3px solid var(--sitala-rust);outline-offset:4px}
+.heroFigure{position:relative;margin:0;padding:10px;border:1px solid rgba(198,161,91,.48);border-radius:10px;background:var(--sitala-ivory);box-shadow:0 18px 48px rgba(50,27,18,.13)}
+.heroFigure img{display:block;width:100%;aspect-ratio:1.25;object-fit:cover;object-position:center 47%;border-radius:6px}
+.heroFigure figcaption,.imageCaption{padding:11px 7px 2px;color:rgba(50,27,18,.72);font-size:13px}
+.seasonSection{padding:66px 0 70px;background:var(--sitala-ivory)}
+.seasonGrid{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);align-items:center;gap:clamp(36px,7vw,90px)}
+.seasonGrid h2,.mythCopy h2,.sectionHeading h2,.visitSection h2{margin:0;color:var(--sitala-brown);font:400 clamp(2rem,4vw,3rem)/1.15 'Marcellus',serif}
+.seasonText{margin:0;color:rgba(50,27,18,.82);font-size:17px;line-height:1.9}
+.mythSection{padding:86px 0;background:var(--sitala-cream)}
+.mythGrid{display:grid;grid-template-columns:minmax(0,.92fr) minmax(0,1.08fr);align-items:center;gap:clamp(38px,7vw,88px)}
+.mythImageWrap{padding:10px;border:1px solid rgba(198,161,91,.46);border-radius:9px;background:var(--sitala-ivory);box-shadow:0 12px 35px rgba(50,27,18,.1)}
+.mythImage{display:block;width:100%;aspect-ratio:1.12;object-fit:cover;object-position:center 48%;border-radius:5px}
+.imageCaption{margin:0;padding:11px 4px 1px}
+.mythCopy h2{margin-bottom:18px}
+.mythCopy>p:not(.sectionKicker){margin:0 0 14px;color:rgba(50,27,18,.82);font-size:16px;line-height:1.85}
+.traditionSection{padding:86px 0 96px;background:var(--sitala-ivory)}
+.sectionHeading{max-width:850px;margin:0 0 34px}.sectionHeading h2{margin-bottom:14px}.sectionHeading>p:last-child{max-width:76ch;margin:0;color:rgba(50,27,18,.78);font-size:16px;line-height:1.8}
+.traditionGrid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+.traditionCard{padding:26px 25px 29px;border:1px solid rgba(198,161,91,.42);border-radius:7px;background:#fff9ef;box-shadow:0 7px 22px rgba(50,27,18,.06);transition:transform .22s ease,box-shadow .22s ease}
+.traditionCard:hover{transform:translateY(-4px);box-shadow:0 14px 30px rgba(50,27,18,.12)}
+.traditionIcon{display:grid;width:38px;height:38px;place-items:center;margin-bottom:16px;border-radius:50%;background:rgba(184,61,11,.1);color:var(--sitala-rust)}
+.traditionCard h3{margin:0;color:var(--sitala-brown);font:400 22px/1.28 'Marcellus',serif}
+.traditionCard p{margin:13px 0 0;color:rgba(50,27,18,.78);font-size:15px;line-height:1.78}
+.visitSection{padding:76px 0 84px;background:#321B12;color:var(--sitala-ivory);text-align:center}
+.visitSection .sectionKicker{color:#E0BD78}.visitSection h2{color:var(--sitala-ivory)}
+.visitSection p:not(.sectionKicker){max-width:56ch;margin:17px auto 0;color:rgba(248,239,223,.86);font-size:17px;line-height:1.7}
+.visitButton{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:49px;margin-top:26px;padding:0 21px;border-radius:4px;background:var(--sitala-rust);color:#fff;text-decoration:none;font-size:15px;font-weight:700;transition:background .2s ease,transform .2s ease}
+.visitButton:hover{transform:translateY(-2px);background:#D04A17}
+@media(max-width:900px){.heroGrid{grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:36px}.traditionGrid{gap:15px}.traditionCard{padding-inline:20px}}
+@media(max-width:680px){.container{width:min(100% - 36px,520px)}.hero{padding:18px 0 54px}.breadcrumb{margin-bottom:29px}.heroGrid{grid-template-columns:1fr;gap:28px}.heroCopy h1{font-size:clamp(2.8rem,14vw,4rem)}.subtitle{font-size:21px}.heroFigure{grid-row:1}.heroFigure img{aspect-ratio:1.18}.seasonSection{padding:54px 0 60px}.seasonGrid,.mythGrid{grid-template-columns:1fr;gap:22px}.seasonText{font-size:16px}.mythSection,.traditionSection{padding:62px 0 70px}.mythImage{aspect-ratio:1.2}.traditionGrid{grid-template-columns:1fr;gap:15px}.traditionCard{padding:23px}.sectionHeading h2{font-size:clamp(1.9rem,9vw,2.5rem)}.visitSection{padding:60px 0 68px}}
+@media(prefers-reduced-motion:reduce){.traditionCard,.visitButton{transition:none}.traditionCard:hover,.visitButton:hover{transform:none}}
