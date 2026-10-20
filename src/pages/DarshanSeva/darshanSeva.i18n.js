@@ -1,1 +1,25 @@
-export const darshanSevaI18n = { en: {}, od: {}, hi: {} };
+export const darshanSevaI18n = {
+  en: {
+    eyebrow: 'Plan your worship',
+    title: 'Darshan & Seva',
+    book: 'Book seva',
+    rituals: 'Daily Rituals',
+    services: 'Devotee Services',
+    booking: 'How booking works',
+    tips: 'Visitor tips',
+    faqs: 'Frequently asked questions',
+    today: 'Today',
+    open: 'Open',
+    closed: 'Closed',
+    unknown: 'Timings to be confirmed',
+    next: 'Next',
+    now: 'Now',
+    all: 'All',
+    support: 'Support the temple',
+    visit: 'Plan your visit',
+    help: 'Need help?',
+    notice: 'Darshan timings may change on festival days.',
+  },
+  od: {},
+  hi: {},
+};

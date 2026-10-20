@@ -1,1 +1,1 @@
-.placeholder{display:inline-block;padding:2px 8px;border:1px dashed var(--gold);border-radius:6px;color:var(--muted);font-size:.85em}
+.placeholder{display:inline-block;min-height:0;padding:2px 8px;border:1px dashed var(--placeholder-border);border-radius:6px;background:var(--placeholder-bg);color:var(--placeholder-text);font:12px/1.4 Inter,sans-serif;white-space:nowrap}
